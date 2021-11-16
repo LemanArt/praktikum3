@@ -77,11 +77,11 @@ Running prorgram dan hasilnya akan seperti dibawah ini:
 ##### x=100000000 modal 100.000.000, variabel x.
 ##### sum=0 variabel untuk menjumlah total laba.
 ##### y=0 variabel untuk masa bulan.
-##### laba = [int(0), int(0), int(a) * .1, int(a) * .1, int(a) * .5, int(a) * .5, int(a) * .5, int(a) * .2] variabel untuk jumlah laba perbulan, dipisahkan dengan koma dan tipe data integer.
-##### for i in lb : looping for index i dengan mengambil data dari laba.
+##### buat variabel laba = [int(0), int(0), int(a) * .01, int(a) * .01, int(a) * .05, int(a) * .05, int(a) * .5, int(a) * .03] variabel untuk jumlah laba perbulan, dipisahkan dengan koma dan tipe data integer.
+##### for i in labaxx : looping for index i dengan mengambil data dari variabel laba.
 ##### sum=sum+i rumus untuk menghitung total laba perbulan.
 ##### y+=1 masa bulan, tiap looping menambah 1.
-##### print('Laba Bulan Ke-', y ,'Sebesar :',y) print : y = ambil masa bulan, i = ambil dari data yang ada di dalam lb.
+##### print('Laba Bulan Ke-', y ,'Sebesar :',y) print : y = ambil masa bulan, i = ambil dari data yang ada di dalam variabel laba.
 ##### print('TOTAL LABA YANG DI DAPAT ADALAH :',sum) print total laba
 berikut ini adalah programnya:
 ![Gambar 16](ss/o.png)
