@@ -49,6 +49,44 @@ Berikut ini contoh hasilnya
 Berikut ini adalah programnya
 ![Gambar 9](ss/i.png)
 Dibawah ini adalah hcontoh hasilnya
-![Gambar 8](ss/j.png)
+![Gambar 10](ss/j.png)
 flowchart:
-![Gambar 8](ss/flowtugas.png)
+![Gambar 11](ss/flowtugas.png)
+
+# labspy03
+## latihan1
+### Tampilkan n bilangan acak yang lebih kecil dari 0.5. Nilai n diisi pada saat runtime
+##### import random memanggil file random.
+##### n = int(input("Masukan nilai N : ")) input variabel n, tipe data integer.
+##### for b in range(n) : looping for index b dengan jumlah perulangan sebanyak n.
+##### c = random.uniform(.0,.5) variabel a berisikan angka acak dari 0.0 sampai 0.5.
+##### print(c) print data ke : a = index looping c = angka random.
+berikut ini adalah programnya:
+![Gambar 12](ss/k.png)
+dibawah ini hasilnya:
+![Gambar 13](ss/l.png)
+## latihan2
+### Buat program untuk menampilkan bilangan terbesar dari n buah data yang diinputkan. Masukkan angka 0 untuk berhenti
+Buatlah program seperti berikut ini:
+![Gambar 14](ss/m.png)
+Running prorgram dan hasilnya akan seperti dibawah ini:
+![Gambar 15](ss/n.png)
+
+## tugas Program1
+### Menghitung laba
+##### x=100000000 modal 100.000.000, variabel x.
+##### sum=0 variabel untuk menjumlah total laba.
+##### y=0 variabel untuk masa bulan.
+##### laba = [int(0), int(0), int(a) * .1, int(a) * .1, int(a) * .5, int(a) * .5, int(a) * .5, int(a) * .2] variabel untuk jumlah laba perbulan, dipisahkan dengan koma dan tipe data integer.
+##### for i in lb : looping for index i dengan mengambil data dari laba.
+##### sum=sum+i rumus untuk menghitung total laba perbulan.
+##### y+=1 masa bulan, tiap looping menambah 1.
+##### print('Laba Bulan Ke-', y ,'Sebesar :',y) print : y = ambil masa bulan, i = ambil dari data yang ada di dalam lb.
+##### print('TOTAL LABA YANG DI DAPAT ADALAH :',sum) print total laba
+berikut ini adalah programnya:
+![Gambar 16](ss/o.png)
+Dibawah ini adalah hasilnya:
+![Gambar 17](ss/p.png)
+
+
+# Selesai
