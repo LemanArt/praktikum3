@@ -38,3 +38,17 @@ print(c) print data ke : a = index looping c = angka random.
 ![Gambar 7](ss/g.png)
 Berikut ini contoh hasilnya
 ![Gambar 8](ss/h.png)
+
+# labspy02
+## Tugas
+### Input 3 bilangan dan tampilkan nilai terbesarnya
+#### untuk mencari bilangan terbesar dari 3 bilangan algoritmanya yang dimasukkan akan membandingkan terlebih dahulu apakah A > B.
+#### jika A > B,maka ada 2 kadidat bilangan terbesar,yaitu A dan C sehingga perlu dilakukan pengujian yang lebih besar dari A dan C dengan membandingkan nilai B dan C. 
+#### jika nilai B ternyata lebih besar dari C, maka bilangan terbesar adalah A.nilai terbesar adalah C jika ternyata C lebih besar dari A.
+#### jika kondisi A > B tidak terpenuhui(atau B <=A),maka 2 kadidat bilangan terbesar adalah B dan C.jika nilai C ternyata lebih kecil dari A,maka B adalah nilai terbesar,sedangkan jika C yang lebih besar dari B ,maka yang terbesar adalah C.
+Berikut ini adalah programnya
+![Gambar 9](ss/i.png)
+Dibawah ini adalah hcontoh hasilnya
+![Gambar 8](ss/j.png)
+flowchart:
+![Gambar 8](ss/flowtugas.png)
